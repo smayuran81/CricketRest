@@ -1,0 +1,16 @@
+spring:
+  profiles: hsqldb
+  datasource:
+    url: jdbc:h2:mem:restsec_dev;DB_CLOSE_DELAY=-1
+    username: sa
+    password: sa
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true

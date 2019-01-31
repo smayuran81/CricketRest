@@ -1,0 +1,5 @@
+spring.jpa.hibernate.ddl-auto=create
+spring.datasource.url=jdbc:mysql://localhost:3306/restwithspring?createDatabaseIfNotExist=true
+spring.datasource.username=restUser
+spring.datasource.password=restmy5ql
+encoded password - $2a$11$L.BlcTcugbN.crMUCgtH1oOLg0rJPZkOpUpJO3ZAKO6U8pIoA4ukGq
